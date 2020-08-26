@@ -42,6 +42,11 @@ input[class^="btn-"]:hover {
 
 // Backgrounds
 .bg {
+  &-secondary {
+    background: rgba(29, 20, 0, 0.418);
+    color: set-text-color($main-color);
+  }
+
   &-main {
     background: $main-color;
     color: set-text-color($main-color);

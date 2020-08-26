@@ -28,6 +28,10 @@ a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
   background-color: #ffbc00; }
 
+.bg-secondary {
+  background: rgba(29, 20, 0, 0.418);
+  color: #fff; }
+
 .bg-main {
   background: #ffbc00;
   color: #fff; }
