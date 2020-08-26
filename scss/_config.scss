@@ -1,0 +1,19 @@
+// Variables
+$website-width: 1750px;
+$main-color: #ffbc00;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+$bg-image: url("../img/background.jpg");
+$overlay-color: rgba(85, 85, 85, 0.85);
+$secondary-color: rgba(229, 148, 0, 0.9);
+$menu-speed: 0.75s;
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
