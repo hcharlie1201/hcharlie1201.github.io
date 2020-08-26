@@ -474,6 +474,10 @@ img {
   border-style: solid; }
 
 @media (max-width: 800px) {
+  #timeline ul li div {
+    width: 250px; }
+  #timeline ul li:nth-child(even) div {
+    left: -284px; }
   #header-home {
     height: 30rem; }
     #header-home .header-content {
@@ -506,6 +510,18 @@ img {
       font-size: 1.5rem; } }
 
 @media (max-width: 500px) {
+  #timeline ul li {
+    margin-left: 20px; }
+    #timeline ul li div {
+      font-size: 2rem;
+      width: calc(100vw - 90px); }
+    #timeline ul li:nth-child(even) div {
+      font-size: 2rem;
+      left: 40px; }
+      #timeline ul li:nth-child(even) div:before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent rgba(229, 148, 0, 0.9) transparent transparent; }
   html {
     font-size: 0.5rem; }
   .award {

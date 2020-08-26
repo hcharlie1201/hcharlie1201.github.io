@@ -1,5 +1,19 @@
 // Tablets & Smaller
 @media (max-width: 800px) {
+  #timeline {
+    ul {
+      li {
+        div {
+          width: 250px;
+        }
+        &:nth-child(even) {
+          div {
+            left: -284px;
+          }
+        }
+      }
+    }
+  }
   #header-home {
     height: 30rem;
 
@@ -56,6 +70,29 @@
 
 // Smartphones
 @media (max-width: 500px) {
+  #timeline {
+    ul {
+      li {
+        margin-left: 20px;
+        div {
+          font-size: 2rem;
+          width: calc(100vw - 90px);
+        }
+        &:nth-child(even) {
+          div {
+            font-size: 2rem;
+            left: 40px;
+            &:before {
+              left: -15px;
+              border-width: 8px 16px 8px 0;
+              border-color: transparent $secondary-color transparent transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+
   html {
     font-size: 0.5rem;
   }
