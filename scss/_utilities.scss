@@ -63,6 +63,10 @@ input[class^="btn-"]:hover {
     background: $medium-color;
     color: set-text-color($medium-color);
   }
+  &-pink {
+    background: rgb(241, 171, 224);
+    color: set-text-color(rgb(241, 171, 224));
+  }
 }
 
 .lead {

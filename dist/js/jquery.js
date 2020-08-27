@@ -11,7 +11,11 @@ $("#show-box-10").find("#sb-10").hide();
 $("#show-box-11").find("#sb-11").hide();
 $("#show-box-12").find("#sb-12").hide();
 // for (let i = i; i <= 10; i++) {
-//   $(`#show-box-${i}`).find(`#sb-${i}`).hide();
+//   let temp = "#show-box-";
+//   let temp2 = "sb-";
+//   $(temp + `${1}`)
+//     .find(temp2 + `${1}`)
+//     .hide();
 // }
 
 var activated1 = 0;

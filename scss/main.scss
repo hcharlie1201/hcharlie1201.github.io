@@ -1,5 +1,6 @@
 @import "config";
 @import "utilities";
+@import "item_grid";
 
 // General Styles
 * {
@@ -120,7 +121,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   .toggler {
     position: absolute;
     top: 0;
@@ -443,6 +444,10 @@ img {
       border-style: solid;
     }
   }
+}
+
+a:hover#icon-hover {
+  color: rgb(184, 207, 102);
 }
 
 // Import Media Queries
