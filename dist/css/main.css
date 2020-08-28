@@ -104,8 +104,7 @@ input[class^="btn-"]:hover {
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
   text-align: left;
-  font-weight: 100;
-  text-transform: uppercase; }
+  font-weight: 100; }
   #about-a > .container > .about-info > .bio-self > .bottom-line {
     height: 2px;
     width: 3rem;
@@ -412,7 +411,7 @@ img {
 #about-a .about-info {
   display: grid;
   grid-template-areas: "bioself bio bio";
-  grid-column-gap: 3.2rem; }
+  grid-column-gap: 1.3rem; }
 
 #about-a .bio-self {
   grid-area: bioself; }
@@ -554,6 +553,9 @@ img {
 
 a:hover#icon-hover {
   color: #b8cf66; }
+
+#bio-detail {
+  font-family: "Roboto", sans-serif; }
 
 @media (max-width: 800px) {
   #timeline ul li div {

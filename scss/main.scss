@@ -269,7 +269,7 @@ img {
     .about-info {
       display: grid;
       grid-template-areas: "bioself bio bio";
-      grid-column-gap: 3.2rem;
+      grid-column-gap: 1.3rem;
     }
 
     // Grid Area
@@ -450,6 +450,10 @@ img {
 
 a:hover#icon-hover {
   color: rgb(184, 207, 102);
+}
+
+#bio-detail {
+  font-family: "Roboto", sans-serif;
 }
 
 // Import Media Queries
