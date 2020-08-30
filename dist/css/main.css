@@ -13,7 +13,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00; }
+  background-color: #ffd900; }
 
 .btn-light {
   color: #333;
@@ -26,14 +26,14 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #ffbc00; }
+  background-color: #ffd900; }
 
 .bg-secondary {
   background: rgba(29, 20, 0, 0.418);
   color: #fff; }
 
 .bg-main {
-  background: #ffbc00;
+  background: #ffd900;
   color: #fff; }
 
 .bg-dark {
@@ -74,6 +74,9 @@ input[class^="btn-"]:hover {
 .py-4 {
   padding: 4rem 0; }
 
+.py-top {
+  padding-top: 2rem; }
+
 .my-1 {
   margin: 1rem 0; }
 
@@ -98,6 +101,9 @@ input[class^="btn-"]:hover {
 .my-bottom-1 {
   margin-bottom: 1rem; }
 
+.my-top-3 {
+  margin-top: 7rem; }
+
 #about-a {
   font-size: 2rem;
   display: block;
@@ -108,14 +114,14 @@ input[class^="btn-"]:hover {
   #about-a > .container > .about-info > .bio-self > .bottom-line {
     height: 2px;
     width: 3rem;
-    background: #ffbc00;
+    background: #ffd900;
     display: block;
     margin: 0 auto 1rem auto; }
 
 .bottom-line-special {
   height: 2px;
   width: 650px;
-  background: #ffbc00;
+  background: #ffd900;
   display: block;
   overflow: hidden;
   white-space: nowrap;
@@ -125,7 +131,7 @@ input[class^="btn-"]:hover {
 #bottom-line-about {
   height: 6px;
   width: 5rem;
-  background: #ffbc00;
+  background: #ffd900;
   display: block;
   margin: 1 auto 4rem auto;
   float: left; }
@@ -262,7 +268,7 @@ img {
     #main-nav a:hover {
       border-color: #ccc; }
     #main-nav a.current {
-      border-color: #ffbc00; }
+      border-color: #ffd900; }
 
 #header-home {
   background: url("../img/background.jpg") no-repeat center right/cover;
@@ -337,7 +343,7 @@ img {
     width: 30px;
     height: 30px;
     padding: 1rem;
-    background: #ffbc00;
+    background: #ffd900;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -419,7 +425,7 @@ img {
 #about-a .bio {
   padding-left: 2rem;
   grid-area: bio;
-  border-left: 3px solid #ffbc00;
+  border-left: 3px solid #ffd900;
   font-size: 1.2rem; }
 
 #about-b .progress {
@@ -432,7 +438,7 @@ img {
     height: 100%;
     color: #fff;
     text-align: center;
-    background: #ffbc00; }
+    background: #ffd900; }
 
 @-webkit-keyframes "load8" {
   0% {
@@ -507,7 +513,7 @@ img {
       bottom: 0;
       width: 400px;
       padding: 1rem;
-      background: #ffbc00;
+      background: #ffd900;
       transition: all 0.5s ease-in-out;
       visibility: hidden;
       opacity: 0; }
@@ -541,7 +547,7 @@ img {
     visibility: visible;
     opacity: 1; }
   #timeline ul li.show:after {
-    background: #ffbc00; }
+    background: #ffd900; }
 
 #timeline div:before {
   content: "";

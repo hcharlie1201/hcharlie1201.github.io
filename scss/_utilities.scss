@@ -96,6 +96,9 @@ input[class^="btn-"]:hover {
   &-4 {
     padding: 4rem 0;
   }
+  &-top {
+    padding-top: 2rem;
+  }
 }
 
 // Margin
@@ -123,6 +126,9 @@ input[class^="btn-"]:hover {
   }
   &-bottom-1 {
     margin-bottom: 1rem;
+  }
+  &-top-3 {
+    margin-top: 7rem;
   }
 }
 
