@@ -55,7 +55,7 @@ $("#show-box-1").click(function () {
 });
 $("#show-box-1").on("click", function () {
   if (activated1 == 0) {
-    $(this).css("background", "rgba(161, 106, 4, 0.9)");
+    $(this).css("background", "black");
     $(this).css("color", "white");
     activated1 = 1;
   } else {
@@ -71,7 +71,7 @@ $("#show-box-2").click(function () {
 });
 $("#show-box-2").on("click", function () {
   if (activated2 == 0) {
-    $(this).css("background", "rgba(161, 106, 4, 0.9)");
+    $(this).css("background", "black");
     $(this).css("color", "white");
     activated2 = 1;
   } else {
@@ -87,7 +87,7 @@ $("#show-box-3").click(function () {
 });
 $("#show-box-3").on("click", function () {
   if (activated3 == 0) {
-    $(this).css("background", "rgba(161, 106, 4, 0.9)");
+    $(this).css("background", "black");
     $(this).css("color", "white");
     activated3 = 1;
   } else {
