@@ -44,6 +44,10 @@
     }
   }
 
+  #bio-detail {
+    width: 330px;
+  }
+
   .btn-light {
     width: 8rem;
     height: 9rem;
@@ -70,6 +74,10 @@
 
 // Smartphones
 @media (max-width: 500px) {
+  #bio-detail {
+    width: 330px;
+  }
+
   #timeline {
     ul {
       li {
@@ -149,10 +157,10 @@
           margin-left: 0px;
         }
       }
+    }
 
-      &-c {
-        display: none;
-      }
+    &-b {
+      font-size: 2rem;
     }
   }
 
