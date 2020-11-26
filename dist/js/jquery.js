@@ -10,6 +10,7 @@ $("#show-box-9").find("#sb-9").hide();
 $("#show-box-10").find("#sb-10").hide();
 $("#show-box-11").find("#sb-11").hide();
 $("#show-box-12").find("#sb-12").hide();
+$("#show-box-13").find("#sb-13").hide();
 // for (let i = i; i <= 10; i++) {
 //   let temp = "#show-box-";
 //   let temp2 = "sb-";
@@ -30,6 +31,7 @@ var activated9 = 0;
 var activated10 = 0;
 var activated11 = 0;
 var activated12 = 0;
+var activated13 = 0;
 
 // for (let i = 1; i <= 10; i++) {
 //   $(`#show-box-${i}`).click(function () {
@@ -238,5 +240,21 @@ $("#show-box-12").on("click", function () {
     $(this).css("background", "#ffbc00");
     $(this).css("color", "black");
     activated12 = 0;
+  }
+});
+
+$("#show-box-13").click(function () {
+  //expand red div width to 200px
+  $("#sb-13").toggle("slide");
+});
+$("#show-box-13").on("click", function () { 
+  if (activated13 == 0) {
+    $(this).css("background", "rgba(255,153,0)");
+    $(this).css("color", "white");
+    activated13 = 1;
+  } else {
+    $(this).css("background", "#ffbc00");
+    $(this).css("color", "black");
+    activated13 = 0;
   }
 });
